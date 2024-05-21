@@ -1,0 +1,22 @@
+{
+    "name": "reel222z/email_validation",
+    "description": "Use https://emailvalidation.io/ API to create an application that allows to enter the email address and return if its valid or not.",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "sparkpost/sparkpost": "^2.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dean Vas",
+            "email": "batman1913@inbox.lv"
+        }
+    ],
+    "minimum-stability": "stable",
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": false
+        }
+    }
+}
